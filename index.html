@@ -1,0 +1,146 @@
+<html>
+  <head>
+    <title>Visit Colorado</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="index.css" />
+  </head>
+
+  <body>
+    <header>
+      <div class="container">
+        <h1>
+          Most Beautiful Places In Colorado
+          <span class="subheading">(Most Visited Places)</span>
+        </h1>
+
+        <!-- Site Navigation -->
+        <nav>
+          <ul>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Explore</a></li>
+            <li><a href="#">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <section>
+        <div class="container">
+          <h2>Rocky Mountain National Park</h2>
+          <img
+            src="images/rocky-mountain-national-park.webp"
+            alt="View of a lake nestled between mountains and trees."
+            class="main-image"
+          />
+          <h3>Distance from Denver: 66 miles northwest, 90-minute drive</h3>
+          <p>
+            With postcard-like vistas and 355 miles of hiking trails, Rocky Mountain National Park
+            is one of the most popular National Parks in the country. But if you’d rather see the
+            views without breaking a sweat, drive Trail Ridge Road, the highest paved road in the
+            state, which is generally open May through October. To get to the park’s entrance from
+            Denver, you’ll go through the town of Estes Park where along with lots of local elk
+            herds, you can also check out the shops and restaurants on main street and the historic
+            Stanley Hotel (aka the real life place that inspired Stephen King’s The Shining).
+          </p>
+          <a href="#" class="btn btn-dark">Book your trip!</a>
+          <a href="#" class="btn btn-mid">More info</a>
+        </div>
+      </section>
+
+      <section class="section-two">
+        <div class="container">
+          <h2 class="section-two-h2">Scenic Places</h2>
+          <div class="section-two-image-container">
+            <div class="feature-item">
+              <h3 class="title-of-places">Garden of the Gods</h3>
+              <h4 class="distance-to-place">
+                <span class="distance-span">Distance from Denver:</span> 68 miles south, 90-minute
+                drive
+              </h4>
+              <img
+                src="images/garden-of-the-gods.webp"
+                alt="Beautiful view of the jagged stone hills sticking out the ground surrounded by alpine trees."
+                class="feature-image"
+              />
+              <p>
+                This National Registered Landmark in Colorado Springs is another favorite for
+                natural red rock formations, backed by the snowcapped Pikes Peak. It’s free to
+                visit, with hiking trails and a loop to drive that offers plenty of scenic
+                pull-offs, and be sure to look out for the famous “kissing camels” formation along
+                the way. Horseback riding and rock climbing are other popular activities, along with
+                a drive up the 19 mile Pikes Peak Highway, which will take you to the summit of the
+                towering mountain.
+              </p>
+            </div>
+
+            <div class="feature-item">
+              <h3 class="title-of-places">Telluride</h3>
+              <h4 class="distance-to-place">
+                <span class="distance-span">Distance from Denver:</span> 364 miles southwest,
+                6.5-hour drive
+              </h4>
+
+              <img
+                src="images/telluride.webp"
+                alt="Photo of main street in Telluride, Colorado with buildings on each side and mountain in the center."
+                class="feature-image"
+              />
+              <p>
+                One of the most stunning mountain towns in the state (and honestly, the world),
+                Telluride’s mountain backdrops greeting you upon arrival to its historic downtown
+                will have you stopped in your tracks. But don’t idle for too long; board the free
+                ski gondola (which runs most months of the year as the only public transportation
+                service of its kind in America) to check out the sights as you bar and
+                restaurant-hop between downtown Telluride and Mountain Village, where the
+                world-class Telluride Ski Resort is located.
+              </p>
+            </div>
+
+            <div class="feature-item">
+              <h3 class="title-of-places">Twin Lakes</h3>
+              <h4 class="distance-to-place">
+                <span class="distance-span">Distance from Denver:</span> 122 miles southwest, 2
+                hour, 15 minute-drive
+              </h4>
+
+              <img
+                src="images/twin-lakes-co.webp"
+                alt="Beautiful lake with mountain overlooking with a cabin on its right."
+                class="feature-image"
+              />
+              <p>
+                The autumn landscapes here are simply unparalleled, though the cliché that it’s
+                beautiful every time of year is, well, true. Part of the beauty of Twin Lakes (after
+                you get past the striking contrast of yellow aspens against deep blue sky), is that
+                you can appreciate it in a variety of ways—on foot hiking through the trees, on the
+                water in a boat or balancing on a SUP board, or on a few wheels. Oh, and don’t mind
+                14ers Mt. Elbert and Mt. Massive casually towering nearby; you can add conquering
+                them to your to-do list after you’ve taken in the sights.
+              </p>
+            </div>
+          </div>
+
+          <a href="#" class="btn btn-light">Book a Trip</a>
+          <a href="#" class="btn btn-mid">More Places on Our List</a>
+          <p>
+            Excited? Book a trip above. Or if you need more convincing, check out other places in
+            Colorado.
+          </p>
+        </div>
+      </section>
+
+      <footer>
+        <p>&copy; <span id="copyright-year"></span> MulishDonkey.com. All rights reserved.</p>
+      </footer>
+    </main>
+    <script>
+      document.getElementById('copyright-year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
